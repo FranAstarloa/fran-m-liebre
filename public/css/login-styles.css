@@ -1,0 +1,71 @@
+
+/**************************************main**************************************/
+main{
+    background-color: #ebebeb;
+}
+.formulario{
+    max-width: 90vw;
+    margin: auto;
+}
+fieldset{
+    display: flex;
+    padding: 20px;
+    border: 15px solid #ebebeb;
+}
+.type{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 7px;
+}
+.enviar{
+    background-color: #1259c3;
+    color: white;
+    margin: auto;
+    width: 30%;
+    height: 100%;
+    border-radius: 7px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.send-button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 4vw;
+    margin-bottom: 10px;
+}
+.to-home{
+    color: white;
+}
+/*register*/
+legend{
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 4vw;
+    margin-bottom: 10px;
+}
+.botonEnviar{
+    background-color: #1259c3;
+    color: white;
+    margin: auto;
+    width: 30%;
+    height: 100%;
+    border-radius: 7px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+

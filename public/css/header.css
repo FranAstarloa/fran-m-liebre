@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/***************************************header***************************************/
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Logo{
+    width: 50%;
+
+}
+
+.copy-header{
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.hamburguer-button{
+    background-color:#1259c3;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+.main-navbar{
+    display: none;
+}
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+.cuotas {
+    text-align: center;
+}
+.navbar{
+    margin-left: 10px;
+}
+/*****************************************queries********************************/
+/*tablet*/ 
+@media (min-width: 361px){  
+    .busqueda{
+        width: 25%;
+        text-align: center;
+    }
+}
+/*desktop*/
+@media (min-width: 769px){
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-navbar ul{
+       display: flex; 
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+@media (min-width: 1200px){
+    .logo{
+        width: 250px;
+    }
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar{
+        align-items: center;
+        
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .main-navbar{
+        margin-top: 30px;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    } 
+    .main-navbar a{
+        font-size: 19px;
+    }
+    
+}
