@@ -1,4 +1,11 @@
 
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 /**************************************main**************************************/
 main{
     background-color: #ebebeb;
@@ -22,12 +29,14 @@ fieldset{
     background-color: #1259c3;
     color: white;
     margin: auto;
-    width: 30%;
-    height: 100%;
+    width: 20vw;
     border-radius: 7px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+.enviar:hover{
+    background-color: #0022AA;
 }
 .send-button{
     display: flex;
@@ -60,6 +69,13 @@ legend{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+.intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caja{
+    width: 100%;
 }
 
 

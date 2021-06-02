@@ -42,8 +42,6 @@
 }
 .main-navbar ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 .main-navbar a {
     text-decoration: none;
@@ -60,12 +58,7 @@
 }
 /*****************************************queries********************************/
 /*tablet*/ 
-@media (min-width: 361px){  
-    .busqueda{
-        width: 25%;
-        text-align: center;
-    }
-}
+
 /*desktop*/
 @media (min-width: 769px){
     .main-header-top-bar{
@@ -114,5 +107,4 @@
     .main-navbar a{
         font-size: 19px;
     }
-    
 }

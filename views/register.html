@@ -14,7 +14,7 @@
 <body>
     <header class="main-header">
         <div class="main-header-top-bar">
-            <a href="/"><img src="/images/logo-mercado-liebre.svg" class="Logo"></a>
+        <figure><a href="/"><img src="/images/logo-mercado-liebre.svg" class="Logo" alt="Logo"></a></figure> 
             <form class="busqueda" action="" method="post" target="_blank">
                 <p> 
                     <input  type="search" placeholder="Buscar productos">
@@ -41,15 +41,15 @@
             </ul>
 
             <ul class="right-navbar">
-                <li><a href="/register">Crea tu cuenta<i class="far fa-id-card"></i></li></a>
-                <li><a href="/login">Ingresa<i class="fas fa-sign-in-alt"></i></li></a>
-                <li><a href="#">Mis Compras<i class="fas fa-shopping-basket"></i></li></a>
+                <li><a href="/register">Crea tu cuenta<i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresa<i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis Compras<i class="fas fa-shopping-basket"></i></a></li>
             </ul> 
         </nav>
         
     </header>
     <main>
-        <form class="formulario" action="/register" method="post" enctype="multipart/form">
+        <form class="formulario" action="/register" method="post" enctype="multipart/form-data">
             <fieldset>
                 <label for="nombre"></label>
                 <input class="type" type="text" name="nombreCompleto" id="nombre" required placeholder="Nombre y apellido">
@@ -64,8 +64,8 @@
 
             <fieldset>
                 <legend>Fecha de nacimiento</legend>
-                <input class="type"type="date" name="fecha" min="1950-01-01" max="2003-12-31" required>
-                <label for="fecha"></label>
+                <input class="type" type="date" name="fecha" min="1950-01-01" max="2003-12-31" required>
+                
             </fieldset>
                 
             <fieldset>
@@ -85,50 +85,46 @@
             <fieldset class="intereses">
                 <legend>Intereses</legend>
                 <input type="checkbox" name="interes" id="electro" value="electro">
-                <label for="electro">Electro</label>
+                <label class="caja" for="electro">Electro</label>
                 <input type="checkbox" name="interes" id="moda" value="moda">
-                <label for="moda">Moda</label>
+                <label class="caja" for="moda">Moda</label>
                 <input type="checkbox" name="interes" id="hogar" value="hogar">
-                <label for="hogar">Hogar</label>
+                <label class="caja" for="hogar">Hogar</label>
                 <input type="checkbox" name="interes" id="jugueteria" value="jugueteria">
-                <label for="jugueteria">Juguetería</label>
+                <label class="caja" for="jugueteria">Juguetería</label>
                 <input type="checkbox" name="interes" id="vida" value="vidaSana">
-                <label for="vida">Vida sana</label>
+                <label class="caja" for="vida">Vida sana</label>
             </fieldset>
                  
             <fieldset>
                 <legend>Imagen de perfil</legend>
-                <input type="file" name="fotoUsuario" accept=".jpg, .png">
-                <label for="fotoUsuario"></label>
+                <input class="caja" type="file" name="fotoUsuario" accept=".jpg, .png">
             </fieldset>
                 
-            <div class="buttons">
-                <button class="botonEnviar" type="submit"><a href="/" class="to-home">Enviar</a></button>
-                <button class="botonEnviar" type="reset"><a href="/register" class="to-home">Borrar todo</a></button>
+            <div class="send-button">
+                <button class="enviar" type="submit">Enviar</button>
+                <button class="enviar" type="reset">Borrar todo</button>
             </div>
-            
-                
-
         </form>
     </main>
     <footer>
-        <div>
-            <i class="fas fa-credit-card fa-2x" class = "iconos"></i>
+        <section>
+            <i class="fas fa-credit-card fa-2x" class= "iconos"></i>
             <h3>Pagá con tarjeta o en efectivo</h3>
             <p class="cuerpo">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-        </div>
-        <div>
-            <i class="fas fa-gift fa-2x" class = "iconos" ></i>
+        </section>
+        <section>
+            <i class="fas fa-gift fa-2x" class= "iconos" ></i>
             <h3>Envío gratis desde $ 2.500</h3>  
             <p class="cuerpo">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-        </div>
-        <div>
-            <i class="fas fa-user-shield fa-2x" class = "iconos"></i>
+        </section>
+        <section>
+            <i class="fas fa-user-shield fa-2x" class= "iconos"></i>
             <h3>Seguridad, de principio a fin</h3>
             <p class="cuerpo">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
-        </div>
-        <p class="copyrights">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
-    
+        </section>
+       
     </footer>
+    <p class="copyrights">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
 </body>
 </html>

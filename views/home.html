@@ -1,5 +1,5 @@
-<html>
-  <head>
+<!DOCTYPE html>
+  <head lang="en">
     <title>Mercado Liebre</title>  
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -11,13 +11,13 @@
     <script src="https://kit.fontawesome.com/01e5ccde67.js" crossorigin="anonymous"></script>
   </head>
   <body>
+      
     <header class="main-header">
         <div class="main-header-top-bar">
-            <img src="/images/logo-mercado-liebre.svg" class="Logo">
+            <figure><img src="/images/logo-mercado-liebre.svg" class="Logo" alt="Logo"></figure> 
             <form class="busqueda" action="" method="post" target="_blank">
                 <p> 
-                    <input  type="search" placeholder="Buscar productos">
-                    <input type="submit" value="Buscar">
+                    <input  type="search" placeholder="Buscar productos"><button type="submit" value="Buscar"><i class="fas fa-search"></i></button>
                 </p>
             </form>
             <h2 class="copy-header">
@@ -40,20 +40,22 @@
             </ul>
 
             <ul class="right-navbar">
-                <li><a href="/register">Crea tu cuenta<i class="far fa-id-card"></i></li></a>
-                <li><a href="/login">Ingresa<i class="fas fa-sign-in-alt"></i></li></a>
-                <li><a href="#">Mis Compras<i class="fas fa-shopping-basket"></i></li></a>
+                <li><a href="/register">Crea tu cuenta<i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresa<i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis Compras<i class="fas fa-shopping-basket"></i></a></li>
             </ul> 
         </nav>
         
     </header>
-    <div><img class="imagenes" src= "/images/img-home-banner.jpg" alt= "banner"> </div>
 
-    <main>
+</figure><img class="banner" src= "/images/img-home-banner.jpg" alt= "banner"></figure> 
+<main>
+    <section>
+        
         <h2 class="main--intro">Basado en tu última visita</h2>
         <article>
             
-                <img class="imagenes" src="/images/img-cafetera-moulinex.jpg" alt="imagen del producto">            
+            <figure><img class="imagenes" src="/images/img-cafetera-moulinex.jpg" alt="imagen del producto"></figure>             
                 <div class="box-article">
                     <div class="truck">
                         <i class="fas fa-truck"></i>
@@ -67,7 +69,7 @@
 
         <article>
             
-                <img class="imagenes" src="/images/img-macbook-pro-2019.jpg" alt="imagen del producto">           
+            <figure><img class="imagenes" src="/images/img-macbook-pro-2019.jpg" alt="imagen del producto"></figure>         
                 <div class="box-article">
                     <div class="truck">
                         <i class="fas fa-truck"></i>
@@ -80,7 +82,7 @@
         </article>
 
         <article>
-            <img class="imagenes" src="/images/img-samsung-galaxy-s10.jpg" alt="imagen del producto">        
+            <figure><img class="imagenes" src="/images/img-samsung-galaxy-s10.jpg" alt="imagen del producto"></figure>         
             <div class="box-article">
                 <div class="truck">
                     <i class="fas fa-truck"></i>
@@ -92,7 +94,7 @@
         </article>
 
         <article>    
-            <img class="imagenes" src="/images/img-tv-samsung-smart.jpg" alt="imagen del producto">           
+            <figure><img class="imagenes" src="/images/img-tv-samsung-smart.jpg" alt="imagen del producto"></figure>        
             <div class="box-article">
                 <div class="truck">
                     <i class="fas fa-truck"></i>
@@ -103,14 +105,13 @@
             </div>
         </article>        
 
-    </main>
+    </section>
     
-
-    <main>
+    <section>
         <h2 class="main--intro">Ofertas</h2>
         <article>
             
-                <img class="imagenes" src="/images/img-cafetera-moulinex.jpg" alt="imagen del producto">            
+            <figure><img class="imagenes" src="/images/img-cafetera-moulinex.jpg" alt="imagen del producto"></figure>             
                 <div class="box-article">
                     <div class="truck">
                         <i class="fas fa-truck"></i>
@@ -124,7 +125,7 @@
 
         <article>
             
-                <img class="imagenes" src="/images/img-macbook-pro-2019.jpg" alt="imagen del producto">           
+            <figure><img class="imagenes" src="/images/img-macbook-pro-2019.jpg" alt="imagen del producto"></figure>            
                 <div class="box-article">
                     <div class="truck">
                         <i class="fas fa-truck"></i>
@@ -137,7 +138,7 @@
         </article>
 
         <article>
-            <img class="imagenes" src="/images/img-samsung-galaxy-s10.jpg" alt="imagen del producto">        
+            <figure><img class="imagenes" src="/images/img-samsung-galaxy-s10.jpg" alt="imagen del producto"></figure>         
             <div class="box-article">
                 <div class="truck">
                     <i class="fas fa-truck"></i>
@@ -149,7 +150,7 @@
         </article>
 
         <article>    
-            <img class="imagenes" src="/images/img-tv-samsung-smart.jpg" alt="imagen del producto">           
+            <figure><img class="imagenes" src="/images/img-tv-samsung-smart.jpg" alt="imagen del producto"></figure>          
             <div class="box-article">
                 <div class="truck">
                     <i class="fas fa-truck"></i>
@@ -160,21 +161,26 @@
             </div>
         </article>        
 
-    </main>
-    
+    </section>
+</main>
     <footer>
-        <i class="fas fa-credit-card fa-2x" class = "iconos"></i>
-        <h3>Pagá con tarjeta o en efectivo</h3>
-        <p class="cuerpo">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-        <i class="fas fa-gift fa-2x" class = "iconos" ></i>
-        <h3>Envío gratis desde $ 2.500</h3>  
-        <p class="cuerpo">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-        <i class="fas fa-user-shield fa-2x" class = "iconos"></i>
-        <h3>Seguridad, de principio a fin</h3>
-        <p class="cuerpo">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
-        <p class="copyrights">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
-    
+        <section>
+            <i class="fas fa-credit-card fa-2x" class="iconos"></i>
+            <h3>Pagá con tarjeta o en efectivo</h3>
+            <p class="cuerpo">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </section>
+        <section>
+            <i class="fas fa-gift fa-2x" class="iconos" ></i>
+            <h3>Envío gratis desde $ 2.500</h3>  
+            <p class="cuerpo">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+        </section>
+        <section>
+            <i class="fas fa-user-shield fa-2x" class="iconos"></i>
+            <h3>Seguridad, de principio a fin</h3>
+            <p class="cuerpo">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+        </section>
+       
     </footer>
-
+    <p class="copyrights">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
 </body>
 </html>
